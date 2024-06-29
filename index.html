@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+
+    <nav class="header">
+
+      <img src="img/odin.png" alt="odin logo" height="70px">
+
+      <div class="headerBtns">
+        <button type="button" id="home" class="headerBtn">Home</button>
+        <button type="button" id="about" class="headerBtn">About</button>
+        <div id="dropDownCont">
+          <button type="button" id="work" class="headerBtn">
+            <div>Work</div>
+            <div><img class="img" src=img/arrow.png alt="arrow button" height="10px"> </div>
+          </button>
+          <div id="menuItems">
+            <div class="menuItem" id="menuItem1">Projects</div>
+            <div class="menuItem" id="menuItem2">Portfolio</div>
+            <div class="menuItem" id="menuItem3">Resume</div>
+            <div class="menuItem" id="menuItem4">Collaborations</div>
+            <div class="menuItem" id="menuItem5">Content</div>
+          </div>
+        </div>
+
+        <button type="button" id="contact" class="headerBtn">Contact</button>
+      </div>
+    </nav>
+
+    <div class="content">
+
+      <div id="carouselContainer">
+        <img src="img/left-arrow.png" alt="left arrow" class="arrow" id="leftArrow" height="25px">
+
+        <div id="picFrame">
+
+          <div id="wideDiv">
+            <img src="img/img1.jpg" alt="first image" class="image" id="image1">
+            <img src="img/img2.jpg" alt="second image" class="image" id="image2">
+            <img src="img/img3.jpg" alt="third image" class="image" id="image3">
+            <img src="img/img4.jpg" alt="fourth image" class="image" id="image4">
+          </div>
+
+          <div class="dotContainer">
+            <div class="dot" id="dot1"></div>
+            <div class="dot" id="dot2"></div>
+            <div class="dot" id="dot3"></div>
+            <div class="dot" id="dot4"></div>
+          </div>
+
+
+        </div>
+
+        <img src="img/right-arrow.png" alt="right arrow" class="arrow" id="rightArrow" height="25px">
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
